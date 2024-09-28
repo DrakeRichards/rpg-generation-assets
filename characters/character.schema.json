@@ -7,65 +7,63 @@
     "properties": {
         "name": {
             "type": "string",
-            "description": "The name of the character."
+            "description": "The name of the character.",
+            "default": ""
         },
         "race": {
             "type": "string",
-            "description": "The character's race."
+            "description": "The character's race.",
+            "default": ""
         },
         "gender": {
             "type": "string",
-            "description": "The character's gender."
+            "description": "The character's gender.",
+            "default": ""
         },
         "occupation": {
             "type": "string",
-            "description": "The character's occupation."
+            "description": "The character's occupation.",
+            "default": ""
         },
         "overview": {
             "type": "string",
-            "description": "An overview of the character's personality and background."
+            "description": "An overview of the character's personality and background.",
+            "default": ""
         },
         "physicalDescription": {
             "type": "string",
-            "description": "A description of the character's physical appearance."
+            "description": "A description of the character's physical appearance.",
+            "default": ""
         },
         "voiceDescription": {
             "type": "string",
-            "description": "A brief description of the character's voice, to help game masters role-play the character."
+            "description": "A brief description of the character's voice, to help game masters role-play the character.",
+            "default": ""
         },
         "behaviorQuirk": {
             "type": "string",
-            "description": "A quirk or behavior that the character exhibits. Useful to make NPCs stand out from each other."
+            "description": "A quirk or behavior that the character exhibits. Useful to make NPCs stand out from each other.",
+            "default": ""
         },
         "likes": {
             "type": "string",
-            "description": "Things that the character likes."
+            "description": "Things that the character likes.",
+            "default": ""
         },
         "dislikes": {
             "type": "string",
-            "description": "Things that the character dislikes."
+            "description": "Things that the character dislikes.",
+            "default": ""
         },
         "personalGoals": {
             "type": "string",
-            "description": "What does this character want to achieve?"
+            "description": "What does this character want to achieve?",
+            "default": ""
         },
         "hook": {
             "type": "string",
-            "description": "A hook to help game masters introduce the character into the story, such as a small problem the character is currently facing."
+            "description": "A hook to help game masters introduce the character into the story, such as a small problem the character is currently facing.",
+            "default": ""
         }
-    },
-    "required": [
-        "name",
-        "race",
-        "gender",
-        "occupation",
-        "overview",
-        "physicalDescription",
-        "voiceDescription",
-        "behaviorQuirk",
-        "likes",
-        "dislikes",
-        "personalGoals",
-        "hook"
-    ]
+    }
 }
