@@ -29,9 +29,9 @@
             "type": "string",
             "description": "A hook to help game masters introduce the building into the story, such as a rumor about the building or a problem that the occupants are facing."
         },
-        "dallePrompt": {
+        "imagePrompt": {
             "type": "string",
-            "description": "A prompt to send to the DALLE API to generate an image of the building. The prompt should begin by asking for a watercolor and ink painting of the subject, then a sentence or two describing either the interior or exterior of the building. Do not include the building's name in the prompt."
+            "description": "A prompt to send to an AI image generation API to generate an image of the building. The prompt should begin by asking for a watercolor and ink painting of the subject, then a sentence or two describing either the interior or exterior of the building. Do not include the building's name in the prompt."
         }
     }
 }
