@@ -1,22 +1,22 @@
 ---
 tags:
-  - location/{{type}}
-location: "[[{{cityWard}}]]"
+  - location/{{ type }}
+location: "[[{{ city_ward }}]]"
 obsidianUIMode: preview
 ---
 
 # {name}
 
-![[{{imageFileName}}|+character]]
+![[{{ image_file_name }}|+character]]
 
 ## Description
 
-{{description}}
+{{ description }}
 
 ## Occupants
 
-{{occupants}}
+{{ occupants }}
 
 ## Story Hook
 
-{{storyHook}}
+{{ hook }}

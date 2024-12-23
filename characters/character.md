@@ -2,35 +2,34 @@
 tags:
   - character
 aliases:
-  - "{{firstName}}"
 location: 
 obsidianEditingMode: source
 obsidianUIMode: preview
 ---
 
-# {{name}}
+# {{ name }}
 
-*(gender:: {{gender}}) (race:: {{race}}) (class:: {{occupation}})*
+*(gender:: {{ gender }}) (race:: {{ race }}) (class:: {{ occupation }})*
 
-![[{{imageFileName}}|+character]]
+![[{{ image_file_name }}|+character]]
 
 ## Description
 
-{{overview}}
+{{ overview }}
 
 ### Looks
 
-{{physicalDescription}}
+{{ physical_description }}
 
 ## Hooks
 
 ### Goals
 
-{{personalGoals}}
+{{ personal_goals }}
 
 ### Frustration
 
-{{hook}}
+{{ hook }}
 
 ## Relationships
 
