@@ -2,6 +2,7 @@
 tags:
   - character
 aliases:
+title: {{ name }}
 location: 
 obsidianEditingMode: source
 obsidianUIMode: preview

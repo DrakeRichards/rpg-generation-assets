@@ -2,10 +2,11 @@
 tags:
   - location/{{ type }}
 location: "[[{{ city_ward }}]]"
+title: {{ name }}
 obsidianUIMode: preview
 ---
 
-# {name}
+# {{ name }}
 
 ![[{{ image_file_name }}|+character]]
 
