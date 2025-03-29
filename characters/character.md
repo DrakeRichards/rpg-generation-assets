@@ -3,16 +3,18 @@ tags:
   - character
 aliases:
 title: {{ name }}
-location: 
+location:
 obsidianEditingMode: source
 obsidianUIMode: preview
 ---
 
 # {{ name }}
 
-*(gender:: {{ gender }}) (race:: {{ race }}) (class:: {{ occupation }})*
+_(gender:: {{ gender }}) (race:: {{ race }}) (class:: {{ occupation }})_
 
 ![[{{ image_file_name }}|+character]]
+
+%%{{ image_prompt }}%%
 
 ## Description
 

@@ -31,7 +31,7 @@
         },
         "image_prompt": {
             "type": "string",
-            "description": "A prompt to send to an AI image generation API to generate an image of the building. The prompt should begin by asking for a watercolor and ink painting of the subject, then a sentence or two describing either the interior or exterior of the building. Do not include the building's name in the prompt."
+            "description": "A prompt to send to an AI image generation API to generate an image of the building. The prompt not contain any styling, such as to generate a painting or a watercolor, since that will be added later. Include a sentence or two describing either the interior or exterior of the building. Do not include the building's name in the prompt."
         }
     }
 }
